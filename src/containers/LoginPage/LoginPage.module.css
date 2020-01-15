@@ -1,0 +1,19 @@
+.failText{
+    color: #cc3300;
+    text-transform: uppercase;
+}
+
+.logo{
+    width: 100px;
+}
+
+.text{
+    color: initial;
+}
+
+.wrapper{
+    text-align: center;
+    padding: 5%;
+    min-height: calc(100vh - 8rem - 80px);
+    box-sizing: border-box;
+}

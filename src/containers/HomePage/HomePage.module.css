@@ -1,0 +1,24 @@
+.profileCardsWrapper{
+    padding: 0% 10%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    min-height: 600px;
+}
+
+.wrapper{
+    text-align: center;
+    min-height: calc(100vh - 8rem - 80px);
+    box-sizing: border-box;
+}
+
+.wrapper button{
+    margin: 0px 100px 20px 100px;
+}
+
+.wrapper h1{
+    padding: 30px 100px 10px 100px;
+    margin: 0px;
+}

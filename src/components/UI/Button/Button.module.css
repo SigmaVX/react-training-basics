@@ -1,0 +1,57 @@
+.baseStyle{
+    width: 300px;
+    height: 3rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+}
+
+.cta{
+    background-color: #3d315b;
+    color: #f8f991;
+    border: 2px solid #f8f991;
+}
+
+.cta:hover{
+    background-color: #f8f991;
+    color: #3d315b;
+    border: 2px solid #3d315b;
+}
+
+.std{
+    background-color: #9ab87a;
+    color: #3d315b;
+    border: 2px solid #3d315b;
+}
+
+.std:hover{
+    background-color: #3d315b;
+    color: #9ab87a;
+    border: 2px solid #9ab87a;
+}
+
+.warn{
+    background-color: #EE852B;
+    color: #444b6e;
+    border: 2px solid #444b6e;
+
+}
+
+.warn:hover{
+    background-color: #444b6e;
+    color: #EE852B;
+    border: 2px solid #EE852B;
+}
+
+button:disabled, button:disabled:hover{
+    background-color: grey;
+    color: #fff;
+    border: 2px solid #000;
+    cursor: not-allowed;
+}

@@ -1,0 +1,27 @@
+.errorText{
+    color: red;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.input{
+    display: block;
+    width: 90%;
+    height: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin: 10px auto 20px auto;
+    border-radius: 7px;
+    border: none;
+    text-align: center;
+}
+
+.label{
+    display: block;
+    width: 100%;
+    line-height: 1.25rem;
+    font-size: 1.12rem;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+}

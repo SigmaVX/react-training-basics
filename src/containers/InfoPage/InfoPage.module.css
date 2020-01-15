@@ -1,0 +1,28 @@
+.icon{
+  width: 10vw;
+}
+
+.infoText{
+  font-size: 1rem;
+}
+
+.imageWrapper{
+  width: 16vw;
+  height: 16vw;
+  border-radius: 50%;
+  background-color: #3d315b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  min-height: calc(100vh - 8rem - 80px);
+  display: grid;
+  grid-template-columns: 100%;
+  grid-row-gap: 20px;
+  padding: 2% 5%;
+  justify-items: center;
+  box-sizing: border-box;
+  text-align: center;
+}

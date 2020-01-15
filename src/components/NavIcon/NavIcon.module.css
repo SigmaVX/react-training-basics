@@ -1,0 +1,31 @@
+.focusWrapper {
+  padding: 3px;
+}
+
+.focusWrapper:focus {
+  border: 2px dotted #fff;
+  margin: -2px;
+}
+
+.navIcon {
+  width: 26px;
+  height: 26px;
+  margin-left: 9px;
+  margin-top: 9px;
+  z-index: 5;
+  color: #ffffff;
+}
+
+.navIconWrapper {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  z-index: 0;
+  background-color: #f8f991;
+  cursor: pointer;
+  margin: 0px 5px;
+}
+
+.navIconWrapper:hover {
+  background-color: #9ab87a;
+}
